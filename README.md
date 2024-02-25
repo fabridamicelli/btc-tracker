@@ -1,6 +1,6 @@
 <img src='./images/screencast.gif' width='800'>
 
-# bitcoin-price
+# btc-tracker
 Track bitcoin price and draw a live-chart
 
 Two functionalities are implemented so far:  
