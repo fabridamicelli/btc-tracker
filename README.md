@@ -63,7 +63,7 @@ python -m pip install rich
 ```
 Run chart script passing the file from which the prices are read (for example `price.jsonl`):
 ```bash
-python chart.py --filename price.jsonl
+python chart.py --file price.jsonl
 ```
 
 #### TODO
