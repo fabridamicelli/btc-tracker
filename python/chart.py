@@ -79,10 +79,10 @@ def render(filename, n_rows):
     return Align.center(make_table(filename, n_rows))
 
 
-def main(filename: str, rows: int = 10):
-    with Live(render(filename, rows), refresh_per_second=1, screen=True) as live:
+def main(file: str, rows: int = 10):
+    with Live(render(file, rows), refresh_per_second=1, screen=True) as live:
         while True:
-            live.update(render(filename, rows))
+            live.update(render(file, rows))
             time.sleep(0.5)
 
 
